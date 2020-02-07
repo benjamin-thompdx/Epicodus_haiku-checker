@@ -4,7 +4,14 @@ export class HaikuChecker {
     this.line2 = line2;
     this.line3 = line3;
   }
-  lineCount() {
 
+  nonLetterCheck(line) {
+    let strArray = line.split('');
+    strArray.forEach(function(char)  {
+      if(char === /[^a-zA-Z]/) {
+        return false;
+      }
+      return true;
+    }); 
   }
-}
+};

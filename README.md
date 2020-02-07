@@ -16,7 +16,7 @@ _App Description_
 | Behavior | Input | Output |
 |---|:---:|:---:|
 | Verify user input only contains 3 lines | "Hi// my name// is Steph" | True |
-| If user input doesn't contain three lines, prompt user to try again | Hi | False |
+| Verify that user input contains no characters that are not letter| Hi! | False |
 | Take user input and convert each line into an array of words | "my name" | ["my", "name"] |
 | Count the number of syllables in each string | ["hi", ...] | 1 syllable |
 | Count number of syllables for each line | ["my" "name"] | 2 syllables |
